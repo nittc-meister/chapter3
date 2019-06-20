@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="ja">
     <head>
         <meta charset="utf-8">
@@ -6,21 +6,27 @@
 
         <!-- cssの追加 -->
         <style>
+            #greet {
+                font-size: 50px;
+                color: #ff0000;
+            }
         </style>
     </head>
     <body>
         <h1>meister 2019 Python/IoTコース</h1>
         <p id="p">#3 静的サイトの作成</p>
+
+        <p id="greet"> こんにちは！　"仏"</p>
         <!-- この下に新しい要素を追加してください -->
 
         <!-- 段落の追加 -->
 
         <!-- 画像の表示 -->
-        <img src="./img/lenna.jpeg" alt="sample image"/>
+        <img src="./img/0185_c001.gif" alt="sample image"/>
 
         <script>
             // JavaScriptの追加
-            
+            document.getElementById("greet").innerHTML = "happy birthday 仏";
         </script>
     </body>
 </html>
