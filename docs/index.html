@@ -6,21 +6,25 @@
 
         <!-- cssの追加 -->
         <style>
+        #greet {
+            font-size: 40px;
+            color: gold;
+        }
         </style>
     </head>
     <body>
         <h1>meister 2019 Python/IoTコース</h1>
         <p id="p">#3 静的サイトの作成</p>
         <!-- この下に新しい要素を追加してください -->
-
+        <p id="greet">こんにちは "明暦の大翔" </p>
         <!-- 段落の追加 -->
 
         <!-- 画像の表示 -->
-        <img src="./img/lenna.jpeg" alt="sample image"/>
+        <img src="./img/jitensya_cycling_man.jpg" alt="sample image"/>
 
         <script>
             // JavaScriptの追加
-            
+            document.getElementById("greet").innerHTML="happy birthday 明暦の大翔";
         </script>
     </body>
 </html>
